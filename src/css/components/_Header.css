@@ -1,0 +1,45 @@
+header {
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_text {
+    color: var(--red-200);
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oleo Script', cursive;
+}
+
+.header_icon--responsive {
+    display: none;
+}
+
+nav {
+    padding: 1rem 0;
+}
+
+nav ul {
+    display: inline-flex;
+}
+
+.nav_item {
+    margin: 0 .5rem;
+    padding: .2rem .4rem;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 11px;
+    transition: .2s ease-in-out all;
+    cursor: pointer;
+    color: var(--gray-200);
+}
+
+.nav_item--active {
+    background-color: var(--gray-500);
+    color: var(--white-10);
+}
+
+.nav_item:hover {
+    background-color: var(--gray-500);
+    color: var(--white-10);
+}

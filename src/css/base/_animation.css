@@ -1,0 +1,23 @@
+@keyframes pulse {
+    from {
+        box-shadow: var(--ligth-blue-200) 0 0 0;
+    }
+
+    to {
+        box-shadow: var(--ligth-blue-500) 0 0 0 8px;
+    }
+}
+
+@keyframes latidos {
+    from {
+        transform: none;
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    to {
+        transform: none;
+    }
+}
