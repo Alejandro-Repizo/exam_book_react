@@ -27,7 +27,7 @@
 
 .btn::after {
     content: "";
-    background-color: var(--ligth-blue-100);
+    background-color: #1db1ec;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -63,8 +63,8 @@
 }
 
 .btn--blue {
-    color: var(--white-200);
-    background-color: var(--ligth-blue-100);
+    color: var(--white-700);
+    background-color: var(--ligth-blue-200);
 }
 
 .btn--white {

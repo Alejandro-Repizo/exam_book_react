@@ -1,9 +1,13 @@
-@import url("./base/settings.css");
-@import url("./base/base.css");
+@import url("./base/_settings.css");
+@import url("./base/_base.css");
 
-@import url("./components/_Banner.css");
+
 @import url("./components/_Button.css");
-@import url("./components/_Card.css");
-@import url("./components/_Footer.css");
 @import url("./components/_Header.css");
+@import url("./components/_Banner.css");
+@import url("./components/_Card.css");
 @import url("./components/_Information.css");
+@import url("./components/_Footer.css");
+
+@import url("./base/_media.css");
+@import url("./base/_animation.css");

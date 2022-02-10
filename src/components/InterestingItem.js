@@ -1,9 +1,7 @@
 import React from 'react';
 
-export const InterestingItem = () => {
-	return (
-		<picture class='info_img'>
-			<img src='./img/pic04.jpg' alt='myLoream-imagen-color' class='info_thumbnail' />
-		</picture>
-	);
-};
+export const InterestingItem = ({ image }) => (
+	<picture className='info_img'>
+		<img src={`/assets/img/${image}`} alt='myLoream-imagen-color' className='info_thumbnail' />
+	</picture>
+);

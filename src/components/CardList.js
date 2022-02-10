@@ -5,15 +5,15 @@ import { CardItem } from './CardItem';
 export const CardList = () => {
 	const items = [
 		{
-			image: '',
+			image: './norway.jpg',
 		},
 
 		{
-			image: '',
+			image: './sanFranciscoDesktop.jpg',
 		},
 
 		{
-			image: '',
+			image: './new_york.jpg',
 		},
 	];
 

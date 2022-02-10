@@ -1,17 +1,36 @@
 import React from 'react';
 
-export const Interesting = () => {
-	return (
-		<div class='info_interesting'>
-			<p class='info_text'>Interesting stuff</p>
+import { InterestingItem } from './InterestingItem';
 
-			<div class='info_grid'>
-				
+export const Interesting = () => {
+	const items = [
+		{
+			image: './pic04.jpg',
+		},
+		{
+			image: './pic05.jpg',
+		},
+		{
+			image: './pic06.jpg',
+		},
+		{
+			image: './pic07.jpg',
+		},
+	];
+
+	return (
+		<div className='info_interesting'>
+			<p className='info_text'>Interesting stuff</p>
+
+			<div className='info_grid'>
+				{items.map((item, index) => (
+					<InterestingItem key={item.image + index} {...item} />
+				))}
 			</div>
 
-			<button class='btn btn--reverse btn--blue'>
-				<p class='btn_text'>More</p>
-				<i class='far fa-file-alt btn_icon btn_icon--reverse'></i>
+			<button className='btn btn--reverse btn--blue'>
+				<p className='btn_text'>More</p>
+				<i className='far fa-file-alt btn_icon btn_icon--reverse'></i>
 			</button>
 		</div>
 	);
